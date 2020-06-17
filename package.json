@@ -39,6 +39,7 @@
     "jest-watch-typeahead": "0.4.2",
     "mini-css-extract-plugin": "0.9.0",
     "optimize-css-assets-webpack-plugin": "5.0.3",
+    "phoenix": "^1.5.3",
     "pnp-webpack-plugin": "1.6.4",
     "postcss-flexbugs-fixes": "4.1.0",
     "postcss-loader": "3.0.0",
@@ -66,7 +67,8 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "test": "node scripts/test.js"
+    "test": "node scripts/test.js",
+    "compile": "relay-compiler --src ./src --schema ./schema.graphql"
   },
   "eslintConfig": {
     "extends": "react-app"
