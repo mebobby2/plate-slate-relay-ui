@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@absinthe/socket-relay": "^0.2.1",
     "@babel/core": "7.9.0",
     "@svgr/webpack": "4.3.3",
     "@testing-library/jest-dom": "^4.2.4",
@@ -139,6 +140,9 @@
   "babel": {
     "presets": [
       "react-app"
+    ],
+    "plugins": [
+      "relay"
     ]
   }
 }
